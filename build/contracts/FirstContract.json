@@ -34,15 +34,28 @@
     },
     {
       "inputs": [],
+      "name": "getSender",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
       "name": "functionOnlyOwnerCanCall",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"functionOnlyOwnerCanCall\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/FirstContract.sol\":\"FirstContract\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/utils/Strings.sol\":{\"keccak256\":\"0xa4d1d62251f8574deb032a35fc948386a9b4de74b812d4f545a1ac120486b48a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8c969013129ba9e651a20735ef659fef6d8a1139ea3607bd4b26ddea2d645634\",\"dweb:/ipfs/QmVhVa6LGuzAcB8qgDtVHRkucn4ihj5UZr8xBLcJkP6ucb\"]},\"@openzeppelin/contracts/utils/math/Math.sol\":{\"keccak256\":\"0xa1e8e83cd0087785df04ac79fb395d9f3684caeaf973d9e2c71caef723a3a5d6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://33bbf48cc069be677705037ba7520c22b1b622c23b33e1a71495f2d36549d40b\",\"dweb:/ipfs/Qmct36zWXv3j7LZB83uwbg7TXwnZSN1fqHNDZ93GG98bGz\"]},\"project:/contracts/FirstContract.sol\":{\"keccak256\":\"0x15e3298c94b7ed5a9710ab8d5ea22aa9539282ddc640bb569f7619ce6eae5baa\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3d925e872cd7dc7544e921c91677a53b188122fe79a2f94ea4936d21cb8f8499\",\"dweb:/ipfs/QmWBhXHTPJJ3AmvRUbcCT6R3ysCDUmaZYDgB8Ca2F2fzJN\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50600080546001600160a01b03191633179055610113806100326000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80633871cf0b1460415780638da5cb5b146049578063958f85bd146077575b600080fd5b60476087565b005b600054605b906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b6000546001600160a01b0316605b565b6000546001600160a01b0316331460db5760405162461bcd60e51b815260206004820152601460248201527353656e646572206973206e6f74206f776e65722160601b604482015260640160405180910390fd5b56fea2646970667358221220b56e48a3b01272f0fb1c9e742f4757a6814138d46fdb3bcc46d6f9f1949572d664736f6c63430008130033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80633871cf0b1460415780638da5cb5b146049578063958f85bd146077575b600080fd5b60476087565b005b600054605b906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b6000546001600160a01b0316605b565b6000546001600160a01b0316331460db5760405162461bcd60e51b815260206004820152601460248201527353656e646572206973206e6f74206f776e65722160601b604482015260640160405180910390fd5b56fea2646970667358221220b56e48a3b01272f0fb1c9e742f4757a6814138d46fdb3bcc46d6f9f1949572d664736f6c63430008130033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"functionOnlyOwnerCanCall\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getContract\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getSender\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/FirstContract.sol\":\"FirstContract\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/utils/Strings.sol\":{\"keccak256\":\"0xa4d1d62251f8574deb032a35fc948386a9b4de74b812d4f545a1ac120486b48a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8c969013129ba9e651a20735ef659fef6d8a1139ea3607bd4b26ddea2d645634\",\"dweb:/ipfs/QmVhVa6LGuzAcB8qgDtVHRkucn4ihj5UZr8xBLcJkP6ucb\"]},\"@openzeppelin/contracts/utils/math/Math.sol\":{\"keccak256\":\"0xa1e8e83cd0087785df04ac79fb395d9f3684caeaf973d9e2c71caef723a3a5d6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://33bbf48cc069be677705037ba7520c22b1b622c23b33e1a71495f2d36549d40b\",\"dweb:/ipfs/Qmct36zWXv3j7LZB83uwbg7TXwnZSN1fqHNDZ93GG98bGz\"]},\"project:/contracts/FirstContract.sol\":{\"keccak256\":\"0x699a8f7c1f70d0069af1fe708ae00bbb3d04865779c4dcbcdd7498d0f1a863e8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://378a6365fabaabb185b80291d54fe86cde487a34e2cc6743d090401bddc11b9d\",\"dweb:/ipfs/QmX8sWgy4EN5KWpCKPyU77LvrS4U7FKTfR3GRQZMeAWWqf\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50600080546001600160a01b0319163317905561011f806100326000396000f3fe6080604052348015600f57600080fd5b506004361060465760003560e01c80633871cf0b14604b5780635e01eb5a1460535780638da5cb5b146071578063958f85bd146083575b600080fd5b60516093565b005b335b6040516001600160a01b03909116815260200160405180910390f35b6000546055906001600160a01b031681565b6000546001600160a01b03166055565b6000546001600160a01b0316331460e75760405162461bcd60e51b815260206004820152601460248201527353656e646572206973206e6f74206f776e65722160601b604482015260640160405180910390fd5b56fea2646970667358221220fb38fd204768cd01e4c045fc678e406501fd3a1453c161526897282390bb1b2d64736f6c63430008130033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060465760003560e01c80633871cf0b14604b5780635e01eb5a1460535780638da5cb5b146071578063958f85bd146083575b600080fd5b60516093565b005b335b6040516001600160a01b03909116815260200160405180910390f35b6000546055906001600160a01b031681565b6000546001600160a01b03166055565b6000546001600160a01b0316331460e75760405162461bcd60e51b815260206004820152601460248201527353656e646572206973206e6f74206f776e65722160601b604482015260640160405180910390fd5b56fea2646970667358221220fb38fd204768cd01e4c045fc678e406501fd3a1453c161526897282390bb1b2d64736f6c63430008130033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -389,15 +402,15 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "115:647:2:-:0;;;187:48;;;;;;;;;-1:-1:-1;209:5:2;:18;;-1:-1:-1;;;;;;209:18:2;217:10;209:18;;;115:647;;;;;;",
-  "deployedSourceMap": "115:647:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;450:66;;;:::i;:::-;;146:20;;;;;-1:-1:-1;;;;;146:20:2;;;;;;-1:-1:-1;;;;;178:32:4;;;160:51;;148:2;133:18;146:20:2;;;;;;;355:87;398:7;429:5;-1:-1:-1;;;;;429:5:2;355:87;;450:66;299:5;;-1:-1:-1;;;;;299:5:2;285:10;:19;277:52;;;;-1:-1:-1;;;277:52:2;;424:2:4;277:52:2;;;406:21:4;463:2;443:18;;;436:30;-1:-1:-1;;;482:18:4;;;475:50;542:18;;277:52:2;;;;;;;;450:66::o",
-  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.19;\r\n\r\nimport \"@openzeppelin/contracts/utils/Strings.sol\";\r\n\r\ncontract FirstContract{\r\n\r\n    address public owner;\r\n            \r\n    constructor(){\r\n      owner = msg.sender;\r\n    }\r\n    \r\n    modifier _ownerOnly(){\r\n      require(msg.sender == owner, \"Sender is not owner!\");\r\n      _;\r\n    }\r\n\r\n    function getContract() public view returns(address) {\r\n            return owner;\r\n    }\r\n\r\n    function functionOnlyOwnerCanCall() public _ownerOnly {    \r\n    }\r\n\r\n    /*function changePrice (uint newPrice) public _ownerOnly returns (string memory message) {\r\n        price = newPrice;\r\n        message = string.concat(\"Novo preco alterado: \", Strings.toString(price));\r\n        return message;\r\n    }*/\r\n}",
+  "sourceMap": "115:502:2:-:0;;;187:48;;;;;;;;;-1:-1:-1;209:5:2;:18;;-1:-1:-1;;;;;;209:18:2;217:10;209:18;;;115:502;;;;;;",
+  "deployedSourceMap": "115:502:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;548:66;;;:::i;:::-;;450:90;522:10;450:90;;;-1:-1:-1;;;;;178:32:4;;;160:51;;148:2;133:18;450:90:2;;;;;;;146:20;;;;;-1:-1:-1;;;;;146:20:2;;;355:87;398:7;429:5;-1:-1:-1;;;;;429:5:2;355:87;;548:66;299:5;;-1:-1:-1;;;;;299:5:2;285:10;:19;277:52;;;;-1:-1:-1;;;277:52:2;;424:2:4;277:52:2;;;406:21:4;463:2;443:18;;;436:30;-1:-1:-1;;;482:18:4;;;475:50;542:18;;277:52:2;;;;;;;;548:66::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.19;\r\n\r\nimport \"@openzeppelin/contracts/utils/Strings.sol\";\r\n\r\ncontract FirstContract{\r\n\r\n    address public owner;\r\n            \r\n    constructor(){\r\n      owner = msg.sender;\r\n    }\r\n    \r\n    modifier _onlyOwner(){\r\n      require(msg.sender == owner, \"Sender is not owner!\");\r\n      _;\r\n    }\r\n\r\n    function getContract() public view returns(address) {\r\n            return owner;\r\n    }\r\n\r\n    function getSender() public view returns(address) {\r\n            return msg.sender;\r\n    }\r\n\r\n    function functionOnlyOwnerCanCall() public _onlyOwner {    \r\n    }\r\n}",
   "sourcePath": "C:\\Users\\edubarbosa\\Desktop\\Curso web3\\curso-web3\\contracts\\FirstContract.sol",
   "ast": {
     "absolutePath": "project:/contracts/FirstContract.sol",
     "exportedSymbols": {
       "FirstContract": [
-        1080
+        1089
       ],
       "Math": [
         1039
@@ -406,7 +419,7 @@
         174
       ]
     },
-    "id": 1081,
+    "id": 1090,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
@@ -426,7 +439,7 @@
         "id": 1042,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 1081,
+        "scope": 1090,
         "sourceUnit": 175,
         "src": "60:51:2",
         "symbolAliases": [],
@@ -439,9 +452,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 1080,
+        "id": 1089,
         "linearizedBaseContracts": [
-          1080
+          1089
         ],
         "name": "FirstContract",
         "nameLocation": "124:13:2",
@@ -455,7 +468,7 @@
             "name": "owner",
             "nameLocation": "161:5:2",
             "nodeType": "VariableDeclaration",
-            "scope": 1080,
+            "scope": 1089,
             "src": "146:20:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -561,7 +574,7 @@
               "parameters": [],
               "src": "200:0:2"
             },
-            "scope": 1080,
+            "scope": 1089,
             "src": "187:48:2",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -703,7 +716,7 @@
               ]
             },
             "id": 1065,
-            "name": "_ownerOnly",
+            "name": "_onlyOwner",
             "nameLocation": "256:10:2",
             "nodeType": "ModifierDefinition",
             "parameters": {
@@ -791,7 +804,7 @@
               ],
               "src": "397:9:2"
             },
-            "scope": 1080,
+            "scope": 1089,
             "src": "355:87:2",
             "stateMutability": "view",
             "virtual": false,
@@ -799,61 +812,157 @@
           },
           {
             "body": {
-              "id": 1078,
+              "id": 1081,
               "nodeType": "Block",
-              "src": "504:12:2",
-              "statements": []
+              "src": "500:40:2",
+              "statements": [
+                {
+                  "expression": {
+                    "expression": {
+                      "id": 1078,
+                      "name": "msg",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4294967281,
+                      "src": "522:3:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_magic_message",
+                        "typeString": "msg"
+                      }
+                    },
+                    "id": 1079,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberLocation": "526:6:2",
+                    "memberName": "sender",
+                    "nodeType": "MemberAccess",
+                    "src": "522:10:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 1077,
+                  "id": 1080,
+                  "nodeType": "Return",
+                  "src": "515:17:2"
+                }
+              ]
             },
-            "functionSelector": "3871cf0b",
-            "id": 1079,
+            "functionSelector": "5e01eb5a",
+            "id": 1082,
             "implemented": true,
             "kind": "function",
-            "modifiers": [
-              {
-                "id": 1076,
-                "kind": "modifierInvocation",
-                "modifierName": {
-                  "id": 1075,
-                  "name": "_ownerOnly",
-                  "nameLocations": [
-                    "493:10:2"
-                  ],
-                  "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1065,
-                  "src": "493:10:2"
-                },
-                "nodeType": "ModifierInvocation",
-                "src": "493:10:2"
-              }
-            ],
-            "name": "functionOnlyOwnerCanCall",
-            "nameLocation": "459:24:2",
+            "modifiers": [],
+            "name": "getSender",
+            "nameLocation": "459:9:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1074,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "483:2:2"
+              "src": "468:2:2"
             },
             "returnParameters": {
               "id": 1077,
               "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "504:0:2"
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1076,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1082,
+                  "src": "491:7:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1075,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "491:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "490:9:2"
             },
-            "scope": 1080,
-            "src": "450:66:2",
+            "scope": 1089,
+            "src": "450:90:2",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1087,
+              "nodeType": "Block",
+              "src": "602:12:2",
+              "statements": []
+            },
+            "functionSelector": "3871cf0b",
+            "id": 1088,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "id": 1085,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 1084,
+                  "name": "_onlyOwner",
+                  "nameLocations": [
+                    "591:10:2"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1065,
+                  "src": "591:10:2"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "591:10:2"
+              }
+            ],
+            "name": "functionOnlyOwnerCanCall",
+            "nameLocation": "557:24:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1083,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "581:2:2"
+            },
+            "returnParameters": {
+              "id": 1086,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "602:0:2"
+            },
+            "scope": 1089,
+            "src": "548:66:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 1081,
-        "src": "115:647:2",
+        "scope": 1090,
+        "src": "115:502:2",
         "usedErrors": []
       }
     ],
-    "src": "33:729:2"
+    "src": "33:584:2"
   },
   "compiler": {
     "name": "solc",
@@ -861,7 +970,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.13",
-  "updatedAt": "2023-03-17T15:15:35.903Z",
+  "updatedAt": "2023-03-17T19:42:32.552Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
